@@ -5,7 +5,7 @@ appid: ee2cbe9d-76bc-4d30-b7cc-d02ac910f821
 
 buildtool: jenkins                # optional param, values=jenkins|travis
 scanner: sast,dast,sca            # optional param, default is ALL
-language: python,javascript       # optional param, default is Auto-Detect
+language: python,javascript,java       # optional param, default is Auto-Detect
 
 variables:
   DAST_URL: https://your.url.com  # optional param
